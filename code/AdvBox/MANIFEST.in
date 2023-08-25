@@ -1,4 +1,0 @@
-include adversarialbox/VERSION
-include *.png
-include *.txt
-include *.pbtxt

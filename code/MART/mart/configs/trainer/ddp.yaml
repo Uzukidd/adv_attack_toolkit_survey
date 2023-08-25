@@ -1,8 +1,0 @@
-defaults:
-  - default.yaml
-
-strategy: ddp
-
-accelerator: gpu
-num_nodes: 1
-sync_batchnorm: True

@@ -1,2 +1,0 @@
-mask:
-  _target_: mart.attack.enforcer.Mask

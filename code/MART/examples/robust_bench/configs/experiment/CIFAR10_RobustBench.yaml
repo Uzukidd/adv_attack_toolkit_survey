@@ -1,8 +1,0 @@
-# @package _global_
-
-defaults:
-  - CIFAR10_CNN
-  - override /model: classifier_robustbench
-
-task_name: "CIFAR10_RobustBench"
-tags: ["adv_trained"]
