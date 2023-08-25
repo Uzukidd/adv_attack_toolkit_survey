@@ -1,0 +1,15 @@
+# @package _global_
+
+# runs with execution time profiling
+
+defaults:
+  - default.yaml
+
+trainer:
+  max_epochs: 1
+  profiler:
+    _target_: lightning.pytorch.profiler.SimpleProfiler
+    # _target_: lightning.pytorch.profiler.AdvancedProfiler
+    # _target_: lightning.pytorch.profiler.PyTorchProfiler
+    dirpath: ${paths.output_dir}
+    filename: profiler_log

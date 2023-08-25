@@ -1,0 +1,19 @@
+defaults:
+  - default.yaml
+
+train_dataset:
+  _target_: torchvision.datasets.FakeData
+
+  size: 1000
+  image_size: ???
+  num_classes: ???
+
+  transform:
+    _target_: torchvision.transforms.Compose
+    transforms:
+      - _target_: torchvision.transforms.ToTensor
+
+val_dataset: ${.train_dataset}
+test_dataset: ${.val_dataset}
+
+num_classes: ${.train_dataset.num_classes}
