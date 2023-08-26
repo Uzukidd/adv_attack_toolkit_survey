@@ -3,7 +3,7 @@
 ## ![img](summary.assets/Trusted-AI.png)[Trusted-AI/*adversarial-robustness-toolbox*](https://github.com/Trusted-AI/adversarial-robustness-toolbox)
 
 - Org: LF AI & Data (Linux Foundation)
-- Desc: 
+- Desc: Adversarial Robustness Toolbox (ART) - Python Library for Machine Learning Security - Evasion, Poisoning, Extraction, Inference - Red and Blue Teams
 - Latest update: Aug 25, 2023
 
 ## ![img](summary.assets/advboxes.png)[advboxes/AdvBox](https://github.com/advboxes/AdvBox)
